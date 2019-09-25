@@ -6,10 +6,9 @@ class Coach(models.Model):
     nome = models.CharField(max_length=255, null=True)
     frase = models.TextField()
     inspirador = models.CharField(max_length=225, null=True)
+    
     criado_em = models.DateTimeField(default=timezone.now)
     ativo = models.BooleanField(default=True)
 
-class Teste(models.Model):
-    nome = models.CharField(max_length=25, null=True)
-    idade = models.IntegerField(max_length=2)
-    
+    def __Str__(self):
+        return self.nome

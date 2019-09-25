@@ -19,7 +19,7 @@ from website import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('paginaInicial/', views.index),
-    path('Desafio/', views.index2)
-    
+    path('', views.index),
+    path('lista', views.index),
+   
 ]
