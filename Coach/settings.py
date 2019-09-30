@@ -26,7 +26,7 @@ SECRET_KEY = 'aas-a71oqbb)*z^onw$0l-n0=i*r!3_vl0rjtl0(b@jdfbn_$b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS (localhost e URL de publicação)
+ALLOWED_HOSTS = ['localhost', 'mafeteste.herokuapp.com']
 
 
 # Application definition
